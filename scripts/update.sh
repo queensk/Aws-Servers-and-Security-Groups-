@@ -1,1 +1,1 @@
-aws cloudformation update-stack --stack-name ourdemoinfra --template-body file://$1    --parameters file://$2  --region=us-east-1
+aws cloudformation update-stack --stack-name $1 --template-body file://$2    --parameters file://$3  --region=us-east-1
