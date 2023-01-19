@@ -1,5 +1,5 @@
 Description: >
-  sever stack creation
+  server stack creation
 Parameters:
   EnvironmentName:
     Description: An environment name that will be prefixed to resource names
